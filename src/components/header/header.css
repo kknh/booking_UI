@@ -1,0 +1,146 @@
+.header {
+	display: flex;
+	justify-content: center;
+	background-color: var(--clr-primary-dark);
+	color: var(--clr-white);
+	position: relative;
+}
+
+.headerContainer {
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 20px 0 100px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.headerList {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 30px;
+}
+
+.headerListItem {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.headerListItem.active {
+	padding: 10px;
+	border-radius: 30px;
+	border: 1px solid white;
+}
+
+.headerBtn {
+	align-self: flex-start;
+	padding: 10px;
+}
+
+.headerSearch {
+	background-color: var(--clr-white);
+	width: 100%;
+	max-width: var(--max-width);
+	border-radius: 5px;
+	border: 3px solid var(--clr-yellow);
+	padding: 8px;
+	position: absolute;
+	bottom: -25px;
+	z-index: 1;
+}
+
+.headerSearchList {
+	display: flex;
+	gap: 20px;
+	justify-content: space-around;
+}
+
+.headerSearchItem {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	position: relative;
+}
+
+.headerSearchIcon {
+	color: var(--clr-grey-light);
+}
+
+.headerSearchQuestionInput {
+	font-family: inherit;
+	font-size: 0.9rem;
+	border: none;
+	outline: none;
+}
+
+.headerSearchDate {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.headerSearchDate > span {
+	color: var(--clr-grey-dark);
+	font-size: 0.9rem;
+}
+
+.datePicker {
+	box-shadow: var(--dark-shadow);
+	position: absolute;
+	top: 35px;
+	z-index: 2;
+}
+
+.headerSearchOptions {
+	display: flex;
+	gap: 10px;
+	color: var(--clr-grey-dark);
+	cursor: pointer;
+}
+
+.headerSearchOptions > span {
+	font-size: 0.9rem;
+}
+
+.optionPicker {
+	color: var(--clr-grey-dark);
+	background-color: var(--clr-white);
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: var(--dark-shadow);
+	position: absolute;
+	top: 35px;
+	z-index: 2;
+}
+
+.optionTitles,
+.optionButtons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.optionBtn {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.optionButtons button {
+	width: 25px;
+	height: 25px;
+	border: 1px solid var(--clr-primary-dark);
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.searchBtn {
+	padding: 10px 15px;
+}
