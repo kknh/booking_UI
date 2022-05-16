@@ -1,0 +1,58 @@
+.fProperties {
+	width: 100%;
+	max-width: var(--max-width);
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.fPropertyItem {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.fPropertyImg {
+	width: 100%;
+	height: 250px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.fPropertyItemDesc {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.fPropertyName {
+	font-size: 1rem;
+}
+
+.fPropertyCity {
+	font-weight: 300;
+}
+
+.fPropertyPrice {
+	font-weight: 500;
+}
+
+.fPropertyRating {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.fPropertyRatingNum {
+	font-size: 0.8rem;
+	font-weight: 700;
+	color: var(--clr-white);
+	padding: 3px;
+	text-align: center;
+	background-color: var(--clr-primary-dark);
+}
+
+.fPropertyRatingText {
+	font-size: 0.9rem;
+}

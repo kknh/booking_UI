@@ -9,8 +9,8 @@ function Navbar() {
 					<h1> marsbooking </h1>
 				</Link>
 				<div className="navItems">
-					<button className="btn btn-light">Register</button>
-					<button className="btn btn-light">Login</button>
+					<button className="btn btn-light-2">Register</button>
+					<button className="btn btn-light-2">Login</button>
 				</div>
 			</div>
 		</nav>

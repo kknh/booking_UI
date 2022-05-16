@@ -1,0 +1,36 @@
+.propertyTypes {
+	width: 100%;
+	max-width: var(--max-width);
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.propertyItem {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.imageContainer {
+	height: 150px;
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.imageContainer > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.propertyTitles > h1 {
+	font-size: 1.2rem;
+}
+
+.propertyTitles > h2 {
+	font-size: 0.8rem;
+	font-weight: 300;
+}

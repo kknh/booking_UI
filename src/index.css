@@ -5,6 +5,7 @@
 	--clr-primary-light: #0071c2;
 	--clr-grey-dark: #555;
 	--clr-grey-light: #a3a3a3;
+	--clr-grey-light-2: #e6e6e6;
 	--clr-yellow: #febb02;
 	--clr-green: #008009;
 	--clr-white: #fff;
@@ -52,5 +53,5 @@ body {
 
 .btn-light {
 	color: var(--clr-primary-dark);
-	background-color: var(--clr-grey-light);
+	background-color: var(--clr-grey-light-2);
 }

@@ -1,0 +1,34 @@
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 0.75rem;
+	color: var(--clr-primary-dark);
+	margin-bottom: 10px;
+}
+
+.footerContainer {
+	width: 100%;
+	max-width: var(--max-width);
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.footerList {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footerItemList {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footerItemList > li {
+	list-style: none;
+	cursor: pointer;
+}

@@ -28,6 +28,14 @@ function Header() {
 		room: 1,
 	})
 
+	//close options and date search modals when clicking outside of them
+	window.addEventListener('click', (e) => {
+		if (!e.target.closest('.headerSearchItem')) {
+			setOpenDate(false)
+			setOpenOptions(false)
+		}
+	})
+
 	const handleOptionClick = (e, type) => {
 		if (e.target.textContent === '-') {
 			setOptions((prev) => ({
